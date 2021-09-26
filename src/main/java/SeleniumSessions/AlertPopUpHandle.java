@@ -9,7 +9,6 @@ public class AlertPopUpHandle {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		
 		System.setProperty("webdriver.chrome.driver", "/Users/mohaseenbagwan/Downloads/chromedriver");
 		WebDriver driver = new ChromeDriver(); //launch chrome
 		

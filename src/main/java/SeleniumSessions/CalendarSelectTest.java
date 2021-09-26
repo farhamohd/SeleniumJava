@@ -37,7 +37,8 @@ public class CalendarSelectTest {
 		String day = dateArr[0];
 		String month = dateArr[1];
 		String year = dateArr[2];
-		
+
+
 		Select select = new Select(driver.findElement(By.name("slctMonth")));
 		select.selectByVisibleText(month);
 		
