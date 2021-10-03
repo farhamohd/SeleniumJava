@@ -1,3 +1,4 @@
+import java.util.PriorityQueue;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -5,9 +6,28 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DynamicWebTableHandle {
+	int start;
+	int end;
+
+	public int getStart() {
+		return start;
+	}
+
+	public void setStart(int start) {
+		this.start = start;
+	}
+
+	public int getEnd() {
+		return end;
+	}
+
+	public void setEnd(int end) {
+		this.end = end;
+	}
 
 	public static void main(String[] args) throws InterruptedException {
 
+		PriorityQueue<String> priorityQueue=new PriorityQueue<>();
 		
 		System.setProperty("webdriver.chrome.driver", "/Users/mohaseenbagwan/Downloads/chromedriver");
 
