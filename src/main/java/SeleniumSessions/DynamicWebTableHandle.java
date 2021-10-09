@@ -1,3 +1,5 @@
+package SeleniumSessions;
+
 import java.util.PriorityQueue;
 import java.util.concurrent.TimeUnit;
 
